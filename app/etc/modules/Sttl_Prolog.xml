@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Sttl_Prolog>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Sttl_Prolog>
+	</modules>
+</config>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+    <name>Sttl_Prolog_18</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.silvertouch.com/MagentoExtensions/licence">STTL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Synchronize your inventory and order data with Prolog logistic software</summary>
+    <description>1. This extension facilitates Store Admin to synchronize Inventory from Prolog to Magento&#xD;
+2. Orders placed through Magento are transferred automatically to Prolog for processing.&#xD;
+3. Once orders have been processed in Prolog, the status will also automatically be synchronized with Magento.&#xD;
+4. Customers get the latest status for their orders from Magento Store front.&#xD;
+5. Cron jobs are required to be created so inventory and orders status can be updated automatically from Prolog to Magento.&#xD;
+6. Extension works with multi line orders.&#xD;
+7. Extension works with Configurable products.&#xD;
+8. This Extension work ONLY for shipping method- UPS Ground, UPS Next Day Air, UPS 2nd Day Air, USPS Priority Mail &amp; USPS Priority Mail International&#xD;
+9. The extension does not generate Packing slip&#xD;
+&#xD;
+IMPORTANT: Inventory cannot be Synchronized from Magento to Prolog.</description>
+    <notes>Synchronize your inventory and order data with Prolog logistic software</notes>
+    <authors><author><name>Silvertouch</name><user>silvertouch</user><email>magento@silvertouch.com</email></author></authors>
+    <date>2014-05-03</date>
+    <time>10:54:04</time>
+    <contents><target name="magelocal"><dir name="Sttl"><dir name="Prolog"><dir name="Helper"><file name="Data.php" hash="e6099ecb59df958803cf36413eedaab5"/></dir><dir name="Model"><file name="Observer.php" hash="97feb298951c741e89248d630dc55dd6"/></dir><dir name="etc"><file name="config.xml" hash="e7aade2a002f54120561405c755bd4f6"/><file name="system.xml" hash="b5c8602d7d73a4be1460c9520f98979c"/></dir><dir name="sql"><dir name="prolog_setup"><file name="mysql4-install-0.1.0.php" hash="d3e1f9007b3480508c07476cd70e4be3"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Sttl_Prolog.xml" hash="400d2da11d9e8b6bcb961e82713fd04b"/></dir></target><target name="mage"><dir name="."><file name="SILVER_Prolog_Sync_User_Guide_Ver_2.0.pdf" hash="488592ff5d1bb540c3d3de28766009d3"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
