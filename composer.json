@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Sttl_Prolog_18",
+    "name": "OpenMageModuleFostering\/Sttl_Prolog_18",
     "type": "magento-module",
     "license": "STTL",
     "homepage": "",
     "description": "Synchronize your inventory and order data with Prolog logistic software",
     "authors": [
-    {
-        "name": "Silvertouch",
-        "email": "magento@silvertouch.com"
-    }
-],
+        {
+            "name": "Silvertouch",
+            "email": "magento@silvertouch.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
